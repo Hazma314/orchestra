@@ -68,6 +68,7 @@ private:
 
     /* An array of songs that are available to be played, can you guess the song/artists? */
     std::string _songs[SONG_COUNT] = {
+      "crab rave.chrp", /*unsure if this works as of 5:23 pm 3/4*/
       "song1.chrp",
       "song2.chrp",
       "song3.chrp",
@@ -79,7 +80,6 @@ private:
       "song9.chrp", /* the remaining songs play better with three or more FXs */
       "song10.chrp",
       "song11.chrp",
-      "crab rave.chrp",
     };
 
     /* track which song is selected for play */
