@@ -39,7 +39,7 @@
 #include "ctre/Phoenix.h"
 
 #define TALON_COUNT 4
-#define SONG_COUNT 12
+#define SONG_COUNT 13
 
 class Robot : public frc::TimedRobot {
  public:
@@ -69,6 +69,7 @@ private:
     /* An array of songs that are available to be played, can you guess the song/artists? */
     std::string _songs[SONG_COUNT] = {
       "crab rave.chrp", /*unsure if this works as of 5:23 pm 3/4*/
+      "pizza.chrp",
       "song1.chrp",
       "song2.chrp",
       "song3.chrp",
