@@ -38,8 +38,8 @@
 #include <string>
 #include "ctre/Phoenix.h"
 
-#define TALON_COUNT 2
-#define SONG_COUNT 11
+#define TALON_COUNT 4
+#define SONG_COUNT 12
 
 class Robot : public frc::TimedRobot {
  public:
